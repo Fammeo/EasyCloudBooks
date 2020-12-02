@@ -1,0 +1,812 @@
+---
+layout: default
+---
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="Home">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Query Builder</li>
+    </ol>
+</nav>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="card mb-2 hentry">
+                <div class="entry-title card-header bg-transparent border-success"><h1 class="display-4">Query Builder</h1></div>
+                <iframe class="card-img-top" src="https://www.youtube.com/embed/Q8kVBxe64Nc" allowfullscreen="" frameborder="0" style=" min-height: 300px;"></iframe>
+                <div class="card-body">
+                    <p class="entry-content card-text">
+                        Query builder is used to apply custom filter on modules like Contacts, Companies and Projects. You can Create and Save Queries on Query builder and then those queries will be available for
+                        <br>
+                        <strong>A.</strong> filters in Contact, Companies, Project, Review Project, Finished project, Service Schedulers, Accounts, Vouchers, PaymentLog, EmailLog, SMSLog and Client Login Modules.
+                        <br>
+                        <strong>B.</strong> Creating Gadgets on dashboards .
+                    </p>
+                </div>
+            </div>
+            <div id="accordion">
+                <div class="card mb-2">
+                    <div class="card-header" id="faq11h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq11" class="faq-question">How many parameters are available in Query Builder section ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq11" class="collapse" aria-labelledby="faq11" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <p class="p-size">
+                                    More than 350 Parameters available in QueryBuilder, click on this link to view updated parameter list
+                                    <a class="btn btn-primary btn-xsm dim" target="_blank" href="CustomFilterList" title="List of Parameters">Parameters List</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq1h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq1" class="faq-question">How to get 'Cash &amp; Bank Balance' through query builder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq1" class="collapse" aria-labelledby="faq1" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/cash and bank balance query.png" title="Cash and Bank Balance Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/cash and bank balance query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Cash and Bank Balance so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Account : type equal Bank Accounts”,
+                                        <br>
+                                        click +add rule and choose “Account : type equal Cash in hands”,
+                                        <br>
+                                        click +add rule and choose “Account : type equal Bank OD Accounts”, select OR operator between them.<br>
+                                        <br>
+                                        4- You can create personal or shared type query.<br>
+                                        <br>
+                                        5- Save this query for future use.<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq2h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq2" class="faq-question">How to get 'Creditors Balance' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq2" class="collapse" aria-labelledby="faq2" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/creditors balance query.png" title="Creditors Balance Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/creditors balance query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Creditors Balance so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Account : type equal Sundry Creditors”,
+                                        <br>
+                                        click +add rule and choose “Account : Balance not equal to 0”,
+                                        <br>
+                                        select AND operator between them.<br>
+                                        <br>
+                                        4- You can create personal or shared type query.<br>
+                                        <br>
+                                        5- Save this query for future use.<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq3h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq3" class="faq-question">How to get 'Debtors Balance' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq3" class="collapse" aria-labelledby="faq3" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/debtors balance query.png" title="Debtors Balance Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/debtors balance query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Debtors Balance so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Account : type equal Sundry Debtors”,
+                                        <br>
+                                        click +add rule and choose “Account : Balance not equal to 0”,
+                                        <br>
+                                        select AND operator between them.<br>
+                                        <br>
+                                        4- You can create personal or shared type query.<br>
+                                        <br>
+                                        5- Save this query for future use.<br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq4h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq4" class="faq-question">How to get 'Expense' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq4" class="collapse" aria-labelledby="faq4" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/expenses query.png" title="Expenses Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/expenses query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Expense so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Account : type equal Purchase Accounts”,
+                                        <br>
+                                        click +add rule and choose “Account : type equal Direct Expenses”,
+                                        <br>
+                                        click +add rule and choose “Account : type equal Indirect Expenses”,
+                                        <br>
+                                        <br>
+                                        4- Select OR operator between them.<br>
+                                        <br>
+                                        5- You can create personal or shared type query.<br>
+                                        <br>
+                                        6- Save this query for future use.<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq5h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq5" class="faq-question">How to get 'Income' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq5" class="collapse" aria-labelledby="faq5" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/income query.png" title="Income Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/income query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Income so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Account : type equal Sales Accounts”,
+                                        <br>
+                                        click +add rule and choose “Account : type equal Direct Incomes”,
+                                        <br>
+                                        click +add rule and choose “Account : type equal Indirect Incomes”,
+                                        <br>
+                                        <br>
+                                        4- Select OR operator between them.<br>
+                                        <br>
+                                        5- You can create personal or shared type query.<br>
+                                        <br>
+                                        6- Save this query for future use.<br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq6h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq6" class="faq-question">How to get 'Payments' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq6" class="collapse" aria-labelledby="faq6" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/payments query.png" title="Payments Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/payments query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Payments so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Transaction : Type equal Payment”<br>
+                                        <br>
+                                        4- You can create personal or shared type query.<br>
+                                        <br>
+                                        5- Save this query for future use.<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq7h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq7" class="faq-question">How to get 'Receipts' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq7" class="collapse" aria-labelledby="faq7" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/receipts query.png" title="Receipts Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/receipts query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Receipts so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Transaction : Type equal Receipt”<br>
+                                        <br>
+                                        4- You can create personal or shared type query.<br>
+                                        <br>
+                                        5- Save this query for future use.<br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq8h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq8" class="faq-question">How to get 'Taxes Balance' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq8" class="collapse" aria-labelledby="faq8" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/tax balance query.png" title="Tax Balance Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/tax balance query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Taxes Balance so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Account : Type equal Input Tax”
+                                        <br>
+                                        click +add rule and choose “Account : Type equal Output Tax”,
+                                        <br>
+                                        <br>
+                                        4- Select OR operator between them.<br>
+                                        <br>
+                                        5- You can create personal or shared type query.<br>
+                                        <br>
+                                        6- Save this query for future use.<br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq8h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq8" class="faq-question">How to get 'Taxes Balance' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq8" class="collapse" aria-labelledby="faq8" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/tax balance query.png" title="Tax Balance Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/tax balance query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Taxes Balance so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section choose parameter “Account : Type equal Input Tax”
+                                        <br>
+                                        click +add rule and choose “Account : Type equal Output Tax”,
+                                        <br>
+                                        <br>
+                                        4- Select OR operator between them.<br>
+                                        <br>
+                                        5- You can create personal or shared type query.<br>
+                                        <br>
+                                        6- Save this query for future use.<br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq9h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq9" class="faq-question">How to get 'Unsettled Payments' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq9" class="collapse" aria-labelledby="faq9" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/unsettled payments query.png" title="Unsettled Payments Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/unsettled payments query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Unsettled Payments so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section click on +ADD GROUP button,
+                                        <br>
+                                        then choose parameter “Account : Type equal Sundry Debtors” ,<br>
+                                        click +add rule and choose “Account : Type equal Sundry Creditors”,<br>
+                                        select OR operator between them.<br>
+                                        <br>
+                                        4- Again click on +ADD GROUP button,<br>
+                                        then choose parameter “Transaction : Type equal Payment” ,<br>
+                                        click +add rule and choose “Transaction : Is Settled equal to false”,<br>
+                                        select SUB-AND operator between them.<br>
+                                        <br>
+                                        5- Select AND operator between both group.<br>
+                                        <br>
+                                        6- You can create personal or shared type query.<br>
+                                        <br>
+                                        7- Save this query for future use.<br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq10h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq10" class="faq-question">How to get 'Unsettled Payments' through querybuilder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq10" class="collapse" aria-labelledby="faq10" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/unsettled receipts query.png" title="Unsettled Receipts Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/unsettled receipts query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like Unsettled Receipts so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section click on +ADD GROUP button,
+                                        <br>
+                                        then choose parameter “Account : Type equal Sundry Debtors” ,<br>
+                                        click +add rule and choose “Account : Type equal Sundry Creditors”,<br>
+                                        select OR operator between them.<br>
+                                        <br>
+                                        4- Again click on +ADD GROUP button,<br>
+                                        then choose parameter “Transaction : Type equal Receipt” ,<br>
+                                        click +add rule and choose “Transaction : Is Settled equal to false”,<br>
+                                        select SUB-AND operator between them.<br>
+                                        <br>
+                                        5- Select AND operator between both group.<br>
+                                        <br>
+                                        6- You can create personal or shared type query.<br>
+                                        <br>
+                                        7- Save this query for future use.<br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq12h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq12" class="faq-question">How to get Projects of ITR which billing is pending after Lead stage in projects ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq12" class="collapse" aria-labelledby="faq12" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/Auto billing of itrs after lead QB.png" title="Auto Billing of ITRs after Lead">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/Auto billing of itrs after lead QB.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like ‘Auto Billing of ITRs after Lead’ in our case so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section click on +ADD RULE button,
+                                        <br>
+                                        then choose parameter “Project : Transaction Exists equal False”,<br>
+                                        click +add rule and choose “Service : Search equal Income Tax Return”,<br>
+                                        click +add rule and choose “Project : Status Greater Lead”,<br>
+                                        select AND operator between them.<br>
+                                        <br>
+                                        4- You can create personal or shared type query.<br>
+                                        <br>
+                                        5- Save this query for future use.<br>
+                                        <br>
+                                        6- You can use this query anywhere. We use it in Personal Gadgets and Automation.<br>
+                                        <br>
+                                        7- This query gives all ITR projects which billing is pending.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq13h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq13" class="faq-question">How to get GSTN Clients list without Return service ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq13" class="collapse" aria-labelledby="faq13" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/GSTN clients without return service QB.png" title="GSTN Clients list without Return service">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/GSTN clients without return service QB.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like “GSTN clients without return service” in our case so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section click on +ADD GROUP button,<br>
+                                        <br>
+                                        4- Then choose parameter ‘Company Relation Service : Search equal GSTR 1 Monthly’,<br>
+                                        click +add rule and choose ‘Company Relation Service : Search equal GSTR 1 Quarterly’,<br>
+                                        click +add rule and choose ‘Company Relation Service : Search equal GSTR 4’,<br>
+                                        click +add rule and choose ‘Company : Name doesn’t contain GSTN’,<br>
+                                        <br>
+                                        5- Select OR operator between them and tick on NOT checkbox also.<br>
+                                        <br>
+                                        6- You can create personal or shared type query.<br>
+                                        <br>
+                                        7- Save this query for future use.<br>
+                                        <br>
+
+                                        <b>Note -</b> Company : Name Parameter only work if your company name has been appended with  word ‘GSTN’.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq14h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq14" class="faq-question">How to find Clients with wrong GSTN services ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq14" class="collapse" aria-labelledby="faq14" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/Clients with wrong GSTN services.png" title="Clients with wrong GSTN services">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/Clients with wrong GSTN services.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like “Clients with wrong GSTN services” in our case so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section click on +ADD RULE button,
+                                        <br>
+                                        then choose parameter “Company Relation Service : Search equal to GSTR 4” ,<br>
+                                        <br>
+                                        4- Click on +ADD GROUP button,<br>
+                                        then choose parameter ‘Company Relation Service : Search equal to GSTR 1 Monthly’,<br>
+                                        then choose parameter ‘Company Relation Service : Search equal to GSTR 1 Quarterly’,<br>
+                                        select OR operator between them, and select AND operator between outer rule and group.<br>
+                                        <br>
+                                        5- You can create personal or shared type query.<br>
+                                        <br>
+                                        6- Save this query for future use.<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq15h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq15" class="faq-question">How to find Unbilled GSTR 4 Projects ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq15" class="collapse" aria-labelledby="faq15" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/unbilled gstr4 projects.png" title="Unbilled GSTR 4 Projects">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/unbilled gstr4 projects.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+                                        2- Type proper name of query like “Unbilled GSTR 4 Projects” in our case so that we can use it for filter in future.<br>
+                                        <br>
+                                        3- In builder section click on +ADD RULE button,
+                                        <br>
+                                        <br>
+                                        4- Then choose parameter ‘Service : Search equal to GSTR 4’,<br>
+                                        <br>
+                                        5- Click +add rule and choose ‘Project : Transaction Exists equal to false’.<br>
+                                        <br>
+                                        6- Select AND operator between them.<br>
+                                        <br>
+                                        7- You can create personal or shared type query.<br>
+                                        <br>
+                                        8- Save this query for future use.<br>
+                                        <br>
+                                        9- You can use this query anywhere. We use it in Personal Gadgets.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq16h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq16" class="faq-question">How to find ‘GSTN Clients which ITR is pending’ ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq16" class="collapse" aria-labelledby="faq16" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/GSTN Clients with ITR service pending.png" title="GSTN Clients with ITR service pending">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/GSTN Clients with ITR service pending.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+
+                                        2- Type proper name of query like “GSTN Clients with ITR service pending” in our case so that we can use it for filter in future.<br>
+
+                                        3- In builder section choose parameter ‘Service : Search equal to Income Tax Return’,
+                                        <br>
+
+                                        4- Click +add rule and choose ‘Project : Status less than Completed’,<br>
+
+                                        5- Click +add rule and choose ‘Company : Name contains GSTN’,<br>
+
+                                        6- Select AND operator between them.<br>
+
+                                        7- You can create personal or shared type query.<br>
+
+                                        8- Save this query for future use.<br>
+
+                                        9- You can use this query anywhere. We use it in Personal Gadgets.<br>
+                                        <br>
+                                        <br>
+
+                                        <b>Note -</b>
+                                        <br>
+                                        - Company : Name Parameter only work if your company name has been appended with word ‘GSTN’.<br>
+                                        - Income Tax Return name used in our case, your service name might be different like ITR.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq17h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq17" class="faq-question">How to find Projects of ‘New Clients which ITR is pending’ ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq17" class="collapse" aria-labelledby="faq17" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/new clients itr pending.png" title="New Clients with Pending ITR Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/new clients itr pending.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        1- Click on create new button on query builder page.<br>
+                                        <br>
+
+                                        2- Type proper name of query like “New Clients ITR Pending” in our case so that we can use it for filter in future.<br>
+                                        <br>
+
+                                        3- In builder section choose parameter ‘Service : Search equal to Income Tax Return’,
+                                        <br>
+                                        <br>
+
+                                        4- Click + add rule and choose ‘Company : Create Date greater or equal Start of Last Month’,<br>
+                                        <br>
+
+                                        5- Click + add rule and choose ‘Project : Create Date greater or equal Start of Last Month’,<br>
+                                        <br>
+
+                                        6- Click + add rule and choose ‘Project : Status Less than On Hold’,<br>
+                                        <br>
+
+                                        7- Select AND operator between them.<br>
+                                        <br>
+
+                                        8- You can create personal or shared type query.<br>
+                                        <br>
+
+                                        9- Save this query for future use.<br>
+                                        <br>
+
+                                        10- You can use this query anywhere. We use it in Personal Gadgets.
+
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq18h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq18" class="faq-question">How to find Pending Work or Projects of particular Staff ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq18" class="collapse" aria-labelledby="faq18" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/Pending Projects of Mr Robin.png" title="Find pending work of staff Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/Pending Projects of Mr Robin.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        For example, I want list of all pending projects of Mr. Robin, for that i make query<br>
+                                        - Goto Query Builder page and click on create new button.<br>
+                                        - Type proper name of query like “Pending Projects of Mr Robin” in our case so that we can use it for filter in future.<br>
+                                        - In builder section choose parameter ‘Project Member : Search equal to Mr Robin’,<br>
+                                        - Click + Add Rule and choose parameter ‘Project : Status less than Completed’,<br>
+                                        - Select AND operator between them.<br>
+                                        - You can create personal or shared type query.<br>
+                                        - Save this query for future use.<br>
+                                        - You can use this query in project page for finding pending work of particular staff.<br>
+                                        <br>
+                                        Note :- Put your staff name in place of Mr Robin.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq19h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq19" class="faq-question">How to find Project Status or Project Stages through Query Builder ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq19" class="collapse" aria-labelledby="faq19" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/in progress query.png" title="Project Status Query">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/in progress query.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        <br>
+                                        For achieve this we create query<br>
+                                        - Goto Query Builder page and click on create new button.<br>
+                                        - Type proper name of query like “Work In Progress” in our case so that we can use it for filter in future.<br>
+                                        - In builder section choose parameter Project : Status equal to In Progress. (There are 7 options in dropdown, which option you want to find select, in our case we select ‘In Progress’ )<br>
+                                        - AND operator automatically selected in single query parameter.<br>
+                                        - You can create personal or shared type query.<br>
+                                        - Save this query for future use.<br>
+                                        - You can use this query in project page for finding In Progress work.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="faq20h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq20" class="faq-question">How to find those Companies in which attached Services count is Zero ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq20" class="collapse" aria-labelledby="faq20" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a class="fancybox-buttons" href="faqimages/querybuilder/company service attach count is zero.png" title="Company Service attach count is Zero">
+                                        <img class="img-responsive imgmargin" src="faqimages/querybuilder/thumb/company service attach count is zero.png" alt="Query Builder Page">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        To find this we create query<br>
+                                        <br>
+                                        - Goto Query Builder page and click on create new button.<br>
+                                        <br>
+                                        - Type proper name of query like “Company Service attach count is zero” in our case so that we can use it for filter in future.<br>
+                                        <br>
+                                        - In builder section choose parameter Company Relation Service : Name, then select ‘is not empty’ from drop down,<br>
+                                        <br>
+                                        - AND operator automatically selected in single query parameter, tick on NOT (Nagation) check box,<br>
+                                        <br>
+                                        - You can create personal or shared type query.<br>
+                                        <br>
+                                        - Save this query for future use.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include headerclient.html -%}
+
+    <!-- <div class="py-5 row"> -->
+      
+      <div class="container-fluid page-content">
+
+      <div class="row flex-xl-nowrap">
+        
+
+        
+            {%- include menuclient.html -%}
+         
+        
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+            {{ content }}
+        </main>
+      </div>
+    
+          </div>
+     
+ <!-- </div> -->
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

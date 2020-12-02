@@ -1,0 +1,246 @@
+// This is the place to place Bootstrap-related CSS customizations.
+// As example you can start by importing the _bootswatch.scss file from one of the
+// theme provided by https://bootswatch.com .
+// stylelint-disable declaration-no-important
+
+//
+// Main navbar
+//
+
+.bd-navbar {
+  min-height: 4rem;
+  background-color: $bd-purple;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
+
+  @include media-breakpoint-down(md) {
+    padding-right: .5rem;
+    padding-left: .5rem;
+
+    .navbar-nav-scroll {
+      max-width: 100%;
+      height: 2.5rem;
+      margin-top: .25rem;
+      overflow: hidden;
+      font-size: .875rem;
+
+      .navbar-nav {
+        padding-bottom: 2rem;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    @supports (position: sticky) {
+      position: sticky;
+      top: 0;
+      z-index: 1071; // over everything in bootstrap
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+      color: $gray;
+
+      &.active,
+      &:hover {
+        color: #fff;
+        background-color: transparent;
+      }
+
+      &.active {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .navbar-nav-svg {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-top;
+  }
+
+  .dropdown-menu {
+    font-size: .875rem;
+  }
+
+  .dropdown-item.active {
+    font-weight: 500;
+    color: $gray-900;
+    background-color: transparent;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23292b2c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: .4rem .6rem;
+    background-size: .75rem .75rem;
+  }
+}
+
+//
+// Right side table of contents
+//
+
+.bd-toc {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+  order: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: .875rem;
+}
+
+.section-nav {
+  padding-left: 0;
+  border-left: 1px solid #eee;
+
+  ul {
+    padding-left: 1rem;
+
+    ul {
+      display: none;
+    }
+  }
+}
+
+.toc-entry {
+  display: block;
+
+  a {
+    display: block;
+    padding: .125rem 1.5rem;
+    color: #99979c;
+
+    &:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+}
+
+//
+// Left side navigation
+//
+
+.bd-sidebar {
+  order: 2;
+  // background-color: #f5f2f9;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+  @include media-breakpoint-up(md) {
+    @supports (position: sticky) {
+      position: sticky;
+      top: 4rem;
+      z-index: 1000;
+      height: calc(100vh - 4rem);
+    }
+    border-right: 1px solid rgba(0, 0, 0, .1);
+  }
+
+  @include media-breakpoint-up(xl) {
+    flex: 0 1 320px;
+  }
+}
+
+.bd-links {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  @include media-breakpoint-up(md) {
+    @supports (position: sticky) {
+      max-height: calc(100vh - 9rem);
+      overflow-y: auto;
+    }
+  }
+
+  // Override collapse behaviors
+  @include media-breakpoint-up(md) {
+    display: block !important;
+  }
+}
+
+.bd-search {
+  position: relative; // To contain the Algolia search
+  padding: 1rem 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+
+  .form-control:focus {
+    border-color: $bd-purple-bright;
+    box-shadow: 0 0 0 3px rgba($bd-purple-bright, .25);
+  }
+}
+
+.bd-search-docs-toggle {
+  line-height: 1;
+  color: $gray-900;
+}
+
+.bd-sidenav {
+  display: none;
+}
+
+.bd-toc-link {
+  display: block;
+  padding: .25rem 1.5rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, .65);
+
+  &:hover {
+    color: rgba(0, 0, 0, .85);
+    text-decoration: none;
+  }
+}
+
+.bd-toc-item {
+  &.active {
+    margin-bottom: 1rem;
+
+    &:not(:first-child) {
+      margin-top: 1rem;
+    }
+
+    > .bd-toc-link {
+      color: rgba(0, 0, 0, .85);
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    > .bd-sidenav {
+      display: block;
+    }
+  }
+}
+
+// All levels of nav
+.bd-sidebar .nav > li > a {
+  display: block;
+  padding: .25rem 1.5rem;
+  font-size: 90%;
+  color: rgba(0, 0, 0, .65);
+}
+
+.bd-sidebar .nav > li > a:hover {
+  color: rgba(0, 0, 0, .85);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bd-sidebar .nav > .active > a,
+.bd-sidebar .nav > .active:hover > a {
+  font-weight: 500;
+  color: rgba(0, 0, 0, .85);
+  background-color: transparent;
+}

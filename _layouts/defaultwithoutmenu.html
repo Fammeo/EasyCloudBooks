@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <!-- <div class="py-5 row"> -->
+      
+      <div class="container-fluid page-content">
+
+      <div class="row flex-xl-nowrap">
+        
+
+         
+        <main class="col-12 col-md-12 col-xl-12 py-md-12 pl-md-12 bd-content" role="main">
+            {{ content }}
+        </main>
+      </div>
+    
+          </div>
+     
+ <!-- </div> -->
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

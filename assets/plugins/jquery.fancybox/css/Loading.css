@@ -1,0 +1,117 @@
+.circleloading {
+    /*background-color: rgba(0,0,0,0);
+    border: 5px solid rgba(0,183,229,0.9);
+    opacity: .9;
+    border-right: 5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0,0,0,0);
+   border-radius: 50px;
+    box-shadow: 0 0 35px #2187e7;*/
+    width: 80px;
+    height: 34px;
+    margin: 16px auto;
+    cursor:default;
+    border-radius:5px;
+    background-image:url('/ecbLoadingsmall.gif');z-index: 9999 !important;
+   /* -moz-animation: spinPulse 1s infinite ease-in-out;
+    -webkit-animation: spinPulse 1s infinite linear;*/
+}
+.RadAjax_WebBlue .raDiv {
+    border-radius:5px;
+    background-image:url('/ecbLoadingsmall.gif') !important;
+}
+.circleloading1 {
+    background-color: rgba(0,0,0,0);
+    border: 5px solid rgba(0,183,229,0.9);
+    opacity: .9;
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #2187e7;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: -55px;
+    -moz-animation: spinoffPulse 1s infinite linear;
+    -webkit-animation: spinoffPulse 1s infinite linear;
+}
+
+@-moz-keyframes spinPulse {
+    0% {
+        -moz-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+
+    50% {
+        -moz-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -moz-transform: rotate(-320deg);
+        opacity: 0;
+    };
+}
+
+@-moz-keyframes spinoffPulse {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    };
+}
+
+@-webkit-keyframes spinPulse {
+    0% {
+        -webkit-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+
+    50% {
+        -webkit-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotate(-320deg);
+        opacity: 0;
+    };
+}
+
+@-webkit-keyframes spinoffPulse {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    };
+}
+
+.wait-modal {
+    display:    none;
+    position:   relative;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    opacity:0.95;
+    background-color:#ffffff;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+.loading .wait-modal {
+    display: block;
+}

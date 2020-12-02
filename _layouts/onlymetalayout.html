@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}"  style="height:100%">
+
+  {%- include headcustom.html -%}
+
+  <body style="height:100%;overflow-y:hidden;">
+      <div class="container-fluid page-content" style="height:100%">
+      <div class="row flex-xl-nowrap" style="height:100%">
+        <main class="col-12 col-md-12 col-xl-12 py-md-12 pl-md-12 bd-content" role="main" style="height:100%;padding: 0;margin: 0;">
+            {{ content }}
+        </main>
+      </div>
+          </div>
+  </body>
+</html>

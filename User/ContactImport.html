@@ -1,0 +1,222 @@
+---
+layout: default
+---
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="Home">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contact Import</li>
+    </ol>
+</nav>
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="card mb-2">
+                <div class="card-header bg-transparent border-success"><h1 class="display-4">Contacts  Import</h1></div>
+                <iframe class="card-img-top" src="https://www.youtube.com/embed/HIDIUQuInxo" allowfullscreen="" frameborder="0" style=" min-height: 300px;"></iframe>
+                <div class="card-body">
+                    <p class="card-text">
+                        Import many contacts into Easycloudbooks at once, saving you time when you're setting up your practice. You can import Contacts using a template XLS file or XLXS file. If you already have contacts in Easycloudbooks, you can import more.
+                    </p>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card mb-2">
+                    <div class="card-header" id="faq1h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq1" class="faq-question">Which are the Mandatory Fields in contact import ?</a>
+                        </h5>
+                    </div>
+                    <div id="faq1" class="collapse" aria-labelledby="faq1" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>
+                                <strong>Contact Name</strong> :- First name and last name are Compulsory field. Note (already existing contact will not be imported).<br>
+
+                                <strong>Mobile Number</strong> :- Good to have Contact Phone Number for unique identification.<br>
+
+                                <strong>Optional Fields</strong> : Email ID, Contact Address, DOB, Passport No, Aadhar No, Married, Aniversary are optional fields.
+
+                                
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-2">
+                    <div class="card-header" id="faq2h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq2" class="faq-question">Instruction and Rules for Combine Import !</a>
+                        </h5>
+                    </div>
+                    <div id="faq2" class="collapse" aria-labelledby="faq2" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="p-size">
+                                       <strong>If you want to add/update multiple contacts only then you can use contact.xlsx.</strong> </p><br>
+					<div class="col-lg-12">
+                                    <a class="fancybox-buttons" href="faqimages/company/contact import.png" title="Import Companies with Contacts">
+                                        <img class="img-responsive imgmargin" src="faqimages/company/thumb/contact import.png" alt="Import Companies with Contacts">
+                                    </a>
+					</div>
+					<br>
+						<p class="p-size">
+                                       <strong>And if you want to add/update multiple Companies then for that use Company.xlsx.</strong></p><br>
+					<div class="col-lg-12">
+                                    <a class="fancybox-buttons" href="faqimages/company/company import.png" title="Import Companies with Contacts">
+                                        <img class="img-responsive imgmargin" src="faqimages/company/thumb/company import.png" alt="Import Companies with Contacts">
+                                    </a></div>
+					<br>
+						
+					<p class="p-size">
+                                       <strong>And if you want to add contact and company and also want that contact should be linked with company or vice versa then use Combine.xlsx.</strong></p><br>
+					<div class="col-lg-12">
+                                    <a class="fancybox-buttons" href="faqimages/company/combine import.png" title="Import Companies with Contacts">
+                                        <img class="img-responsive imgmargin" src="faqimages/company/thumb/combine import.png" alt="Import Companies with Contacts">
+                                    </a></div>
+					<br>
+						<p >
+							So, If you are willing to Import Contact and Company with linking then Open Combine.xlsx sheet. <br>
+							Now to Import Companies, there are two fields that plays key role. 1st is <b>Company Name</b> and <b>PAN</b>. And same for the Contact Important fields are <b>Contact Name</b> and <b>Mobile No</b>.<br>
+
+If you have left Company name field blank then ECB will ignore other fields of the company and will check for Contact's field in same row and  will do add or update operation on contact.<br>
+
+And as If you have filled Company name and other fields of the company and had left Contact name blank then ECB is going to ignore the Contact and will do add or update operation on company.<br>
+
+Now while importing a sheet, If ECB finds Company name that already exists there in the database then <b>PAN will play an important role</b> in such situation for identification of correct company. <br>
+							So, we recommend to have <b>unique PAN in front of every Company</b>. And same role plays <b>Mobile No for the Contacts</b>.<br>
+
+<b>EX:-</b> Now, If you have that question that, what if I have two different clients with exact same name then will ECB allow me to Import both the clients or not?? The answer is YES, It is possible that two clients might have same name, but their PAN or Mobile No has to be different.
+So, two Contacts or two Companies can have same name but there mobile and PAN will be different. And on that basis, If ECB finds same PAN or Mobile No. exists then it will update the existing record with new record.  And if, there are more than 1 duplicate PANs or Mobile Numbers exists then ECB will ignore that record.
+                 </p>
+                                </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                <div class="card mb-2">
+                    <div class="card-header" id="faq3h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq3" class="faq-question">Rules and Situations for Company Import with Contacts !</a>
+                        </h5>
+                    </div>
+                    <div id="faq3" class="collapse" aria-labelledby="faq3" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="p-size">
+                                        <strong>EasyCloudBooks provides 3 types for Import functionalities.</strong><br>
+<strong>1. Company Import</strong>- which can be used for Creation of Companies only.<br>
+<strong>2. Contact Import</strong>- which can be used for creation of contacts only.<br>
+<strong>3. Combine Import</strong>- It will create Contact and Company with Linking.<br>
+
+
+There can be two situations while Importing Contacts and Company.<br>
+1. Import Company with Name and Without PAN.<br>
+2. Import Company with Name and PAN.<br><br>
+
+ <strong>1. If you Import company without PAN.</strong><br><br>
+
+<strong>Scene 1: If you import companies without PAN</strong><br>
+, and same name doesn’t exists then EasyCloudBooks will create company.<br>
+, and same name exists then easycloudbooks will update the record.<br>
+So, EasyCloudBooks prefers to Import Companies with 'PAN' and Contacts with 'Mobile No'.<br><br>
+
+<strong>2. Now, If you Import company with PAN then there are 4 possibilities</strong><br>
+	1. Any PAN Doesn’t Exists <br>
+	2. Same PAN Exists<br>
+	3. Same PAN Exist more than one<br>
+	4. Other PAN Exist<br><br>
+
+<strong>Scene 1: If any PAN Doesn’t Exists</strong><br>
+, And same Name exists then easycloudbooks will Update Name and other fields.<br>
+, And same name doesn’t exists in the system then EasyCloudBooks will create New Company.<br>
+, And same name exists more than once then easycloudbooks will ignore that record.<br><br>
+
+<strong>Scene 2: If same PAN exists</strong><br>
+, and same name exists then easycloudbooks will update those details in database.<br>
+, and the company name is different then easycloudbooks will update name and other details.<br>
+, and same name exists more than once then easycloudbooks will Ignore that record.<br><br>
+
+<strong>Scene 3: If same PAN exists more than once then easycloudbooks will not update the record but if it is possible then will do the linking.</strong><br><br>
+
+<strong>Scene 4: If any other Pan Exists.</strong><br>
+, and same name exists then easycloudbooks will create new Company.<br>
+, and same name doesn’t exists then easycloudbooks will create new company.<br>
+, and same name exists more than once then easycloudbooks will ignore that record.<br>
+
+                                    </p>
+					<div class="col-lg-12">
+                                    <a class="fancybox-buttons" href="faqimages/company/combineimportrules.png" title="Import Companies with Contacts">
+                                        <img class="img-responsive imgmargin" src="faqimages/company/thumb/combineimportrules.png" alt="Import Companies with Contacts">
+                                    </a>
+                                </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-2">
+                    <div class="card-header" id="faq4h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq4" class="faq-question">Which file format supported by Easycloudbooks?</a>
+                        </h5>
+                    </div>
+                    <div id="faq4" class="collapse" aria-labelledby="faq4" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>
+                                .xls or .xlxs formats supported by system.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-2">
+                    <div class="card-header" id="faq5h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq5" class="faq-question">What is the maximum size of file which is to be imported and how many contacts are imported at a time?</a>
+                        </h5>
+                    </div>
+                    <div id="faq5" class="collapse" aria-labelledby="faq5" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>
+                                1000 contacts are imported at a time and Up to 2 mb size, file can be imported.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-2">
+                    <div class="card-header" id="faq6h">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#faq6" class="faq-question">Any report is generated after completion of Contact import?</a>
+                        </h5>
+                    </div>
+                    <div id="faq6" class="collapse" aria-labelledby="faq6" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>
+                                Yes, Report is generated after completion of import which contain
+                                <br>
+                                1.Successfully Imported Contacts Count<br>
+                                2.Already Existed Contacts Count<br>
+                                3.Error Contacts Count<br>
+                                4.File Rejection Message when file is not in proper format<br>
+                                5.User can check this Report in Documnents Vault or Work Task page.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
