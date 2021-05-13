@@ -239,5 +239,5 @@ strong.txt-pay {
 
 /*google search engine text box width set 500px*/
 .gsc-control-cse {
-    width: 500px;
+    width: 500px!important;
 }
