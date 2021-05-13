@@ -236,3 +236,8 @@ strong.txt-ggreen {
 strong.txt-pay {
     color: #1c84c6;
 }
+
+/*google search engine text box width set 500px*/
+.gsc-control-cse {
+    width: 500px;
+}
