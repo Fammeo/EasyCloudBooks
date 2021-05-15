@@ -14,8 +14,14 @@ cursor: pointer;
 .bd-navbar .navbar-nav .nav-link
 {	
 	/*color:rgba(255,255,255,0.5) !important;*/
-	color:#fff;
-	
+	color:#fff;	
+}
+.bd-navbar .navbar-nav .nav-link:hover
+{	
+	background-color: #efb225 !important;
+	color: #fff !important;
+	font-size: 16px;
+	font-weight: 600;
 }
 .colorheader
 {
