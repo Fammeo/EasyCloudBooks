@@ -5,23 +5,19 @@
             <img class="d-block" xmlns="http://www.w3.org/2000/svg" focusable="false" alt="EasyCloudBooks" src="https://www.easycloudbooks.com/images/ecb170wc.png" width="120" height="50">
             <!--<p class="h5 mb-3 float-left g-color-primary">{{ site.title | escape }}</p>-->
         </div>
-        <div class="col-lg-4 float-left">
-            <ul class="footer-list-unstyled">
-                <li>
-                    {%- if site.author -%}
+        <div class="col-lg-4 text-cemter">
+              {%- if site.author -%}
                     {{ site.author | escape }}
                     {%- else -%}
                     {{ site.title | escape }}
                     {%- endif -%}
-                </li>
-                {%- if site.email -%}
-                <li>
-                    <a href="mailto:{{ site.email }}">
+                    <br/>
+                    {%- if site.email -%}
+             <a href="mailto:{{ site.email }}">
                         {{ site.email }}
                     </a>
-                </li>
-                {%- endif -%}
-            </ul>
+             {%- endif -%}
+
         </div>
         <div class="col-lg-4 float-left">
             <div class="textright">
