@@ -260,3 +260,15 @@ strong.txt-pay {
 .g-color-main{
 	color: #052c52 !important;
 }
+
+.activemenu {
+    background-color: #052c52 !important;
+    color: #efb225 !important;
+}
+
+.active.g-bg-main--active, .g-bg-main--focus:focus, .g-bg-main--hover:hover {
+    background-color: #052c52 !important;
+}
+.g-color-primary, .g-color-primary--hover:hover, .g-parent:hover .g-color-primary--parent-hover, .u-block-hover:hover .g-color-primary--hover {
+    color: #efb225 !important;
+}
