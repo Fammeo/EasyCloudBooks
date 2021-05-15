@@ -54,7 +54,8 @@ background-color: rgba(0,0,0,.6) !important;
 /*navbar style*/
 li.nav-item 
 {
-    padding:5px 0px;
+	padding:5px;
+    /*padding:5px 0px;*/
 }
 
 .txt-white {
