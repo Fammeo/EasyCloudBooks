@@ -290,3 +290,6 @@ strong.txt-pay {
 .rounded {
     border-radius: .25rem !important;
 }
+.g-color-white-opacity-0_8{
+	color:rgba(255,255,255,.8) !important
+}
