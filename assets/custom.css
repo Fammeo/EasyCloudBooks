@@ -253,11 +253,11 @@ strong.txt-pay {
     width: 500px!important;
 }
 .gsc-search-button-v2 {
-    font-size: 0;
-    padding: 10px 27px;
+    font-size: 0!important;
+    padding: 10px 27px!important;
 }
 .table.gsc-search-box td.gsc-input {
-    padding-right: 0px;
+    padding-right: 0px!important;
 }
 .g-bg-main {
     background-color: #052c52 !important;
