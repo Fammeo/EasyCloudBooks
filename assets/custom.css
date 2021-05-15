@@ -133,6 +133,7 @@ a.txt-white i
 
     .linetonav {
         display: block;
+	    margin-top:15px;
     }
 
     a:hover {
