@@ -272,3 +272,6 @@ strong.txt-pay {
 .g-color-primary, .g-color-primary--hover:hover, .g-parent:hover .g-color-primary--parent-hover, .u-block-hover:hover .g-color-primary--hover {
     color: #efb225 !important;
 }
+.rounded {
+    border-radius: .25rem !important;
+}
