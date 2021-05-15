@@ -260,7 +260,6 @@ strong.txt-pay {
 .table.gsc-search-box td.gsc-input {
     padding-right: 0px!important;
 }
-
 .g-bg-main {
     background-color: #052c52 !important;
 }
@@ -302,3 +301,9 @@ strong.txt-pay {
 	color:#fff;
 }
 
+.breadcrumb {
+    background-color: #efb22536!important;
+}
+.card-body {
+    background-color: #efb22536!important;
+}
