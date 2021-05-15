@@ -15,11 +15,14 @@ cursor: pointer;
 {	
 	/*color:rgba(255,255,255,0.5) !important;*/
 	color:#fff;	
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: .25rem !important;
 }
 .bd-navbar .navbar-nav .nav-link:hover
 {	
-	background-color: #efb225 !important;
-	color: #fff !important;
+	background-color: #052c52 !important;
+	color: #efb225 !important;
 	font-size: 16px;
 	font-weight: 600;
 	border-radius: .25rem !important;
