@@ -159,9 +159,9 @@ a.txt-white i
 }
 #footer-style {
     border: 1.5px solid #d5d2d2;
-    background-color: #e9ecef;
+    background-color: #0e151b;
     padding-top: 10px;
-    color: #6c757d;
+    color: #fff;
 }
 .footer-main-line {
 
@@ -259,6 +259,7 @@ strong.txt-pay {
 .table.gsc-search-box td.gsc-input {
     padding-right: 0px!important;
 }
+
 .g-bg-main {
     background-color: #052c52 !important;
 }
