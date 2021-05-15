@@ -295,7 +295,7 @@ strong.txt-pay {
 	color:rgba(255,255,255,.8) !important
 }
 #collapsibleNavbar .navbar-dark .navbar-nav .nav-link {
-    color:rgba(255,255,255,.8) !important
+    color: rgba(255,255,255,0.7);
 }
 #collapsibleNavbar .navbar-nav .nav-item .nav-link:hover{
 	background-color:#efb225 !important;
