@@ -301,3 +301,9 @@ strong.txt-pay {
 	background-color:#efb225 !important;
 	color:#fff;
 }
+a {
+    color: #efb225 !important;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
