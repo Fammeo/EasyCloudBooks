@@ -30,20 +30,20 @@ cursor: pointer;
 .colorheader
 {
 	
-background: linear-gradient(to top right,#2490d9,#00d685);
-background: url(sections.png),linear-gradient(to top right,#2490d9,#00d685);
-    background-color: rgba(0, 0, 0, 0);
+/*background: linear-gradient(to top right,#2490d9,#00d685);
+background: url(sections.png),linear-gradient(to top right,#2490d9,#00d685);*/
+    background-color:#052c52; /* rgba(0, 0, 0, 0);*/
     background-repeat: repeat, repeat;
 background-repeat: repeat;
 }
 
-.coloropen, .navbarfull2
+/*.coloropen, .navbarfull2
 {
 	
 border-bottom-color: rgba(255,255,255,.35);
 background-color: rgba(0,0,0,.6) !important;
 	
-}
+}*/
 /*card scss*/
 .card-header:before {
     box-shadow: 0px 15px 10px -15px;
