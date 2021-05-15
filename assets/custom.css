@@ -236,8 +236,27 @@ strong.txt-ggreen {
 strong.txt-pay {
     color: #1c84c6;
 }
-
+/* changes by aviansh on 15 may 2021 for change design*/
 /*google search engine text box width set 500px*/
 .gsc-control-cse {
     width: 500px!important;
+}
+.g-bg-main {
+    background-color: #052c52 !important;
+}
+
+.g-bg-primary {
+    background-color: #efb225 !important;
+}
+
+.g-bg-white {
+    background-color: #fff !important;
+}
+
+.g-color-primary{
+	color: #efb225 !important;
+}
+
+.g-color-main{
+	color: #052c52 !important;
 }
