@@ -293,3 +293,6 @@ strong.txt-pay {
 .g-color-white-opacity-0_8{
 	color:rgba(255,255,255,.8) !important
 }
+.navbar-dark .navbar-nav .nav-link {
+    color:rgba(255,255,255,.8) !important
+}
