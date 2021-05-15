@@ -307,3 +307,6 @@ strong.txt-pay {
 .card-body {
     background-color: #efb22536!important;
 }
+.border-success {
+    border-color: #efb225 !important;
+}
