@@ -299,5 +299,6 @@ strong.txt-pay {
 #collapsibleNavbar .navbar-nav .nav-item .nav-link:hover{
 	background-color:#efb225 !important;
 	color:#fff;
+	border-radius: .25rem !important;
 }
 
