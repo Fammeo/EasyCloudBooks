@@ -317,3 +317,9 @@ a>.at-icon-wrapper{
 .faq-question {
     color: #052c52 !important;
 }
+.border-primary {
+    border-color: #efb225 !important;
+}
+.border-main {
+    border-color: #052c52 !important;
+}
