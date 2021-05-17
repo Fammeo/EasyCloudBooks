@@ -301,7 +301,7 @@ strong.txt-pay {
 	color:#fff;
 	border-radius: .25rem !important;
 }
-.navbar-dark .navbar-nav .active > a:nav-link
+.navbar-dark .navbar-nav .active > a
 {
 	background-color:#efb225 !important;
 	color:#fff !important;
