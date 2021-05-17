@@ -311,3 +311,9 @@ strong.txt-pay {
 a>.at-icon-wrapper{
 	background-color: #052c52!important;
 }
+.c-bg-grey {
+    background-color: rgba(200,198,198,.3) !important;
+}
+.faq-question {
+    color: #052c52 !important;
+}
