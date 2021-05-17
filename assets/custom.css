@@ -308,6 +308,6 @@ strong.txt-pay {
 	border-radius: .25rem !important;
 }
 
-a:at-share-btn >.at-icon-wrapper{
+a>.at-icon-wrapper{
 	background-color: #052c52!important;
 }
