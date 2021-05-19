@@ -85,7 +85,7 @@ a.txt-white i
     .nav-position {
         position: absolute;
         top: 0px;
-        left: 16px;
+        /*left: 16px;*/
     }
 
     .navbarfull1 {
