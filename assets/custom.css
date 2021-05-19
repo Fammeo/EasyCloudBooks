@@ -323,6 +323,9 @@ a>.at-icon-wrapper{
 .border-main {
     border-color: #052c52 !important;
 }
-.navbarfull1{
+/*.navbarfull1{
 	margin-top:-16px;
+}*/
+.navbar{
+	padding:0px!important;
 }
