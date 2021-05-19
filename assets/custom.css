@@ -331,3 +331,11 @@ a>.at-icon-wrapper{
 .navbar{
 	padding:0px!important;
 }
+.col-custom-10 {
+    flex: 0 0 82%;
+    max-width: 82%;
+}
+.col-custom-2 {
+    flex: 0 0 18%;
+    max-width: 18%;
+}
