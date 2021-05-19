@@ -330,6 +330,7 @@ a>.at-icon-wrapper{
 }*/
 .navbar{
 	padding:0px!important;
+	height:70px;
 }
 .col-custom-10 {
     flex: 0 0 82%;
