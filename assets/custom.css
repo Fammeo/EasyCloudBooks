@@ -306,6 +306,8 @@ strong.txt-pay {
 	background-color:#efb225 !important;
 	color:#fff !important;
 	border-radius: .25rem !important;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 a>.at-icon-wrapper{
