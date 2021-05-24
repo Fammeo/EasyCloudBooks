@@ -1,3 +1,64 @@
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_LayoutWL.cshtml";
+}
+<!-- Content area -->
+
+@section seo
+{
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+}
+
+
+
+<div class="page-content boxed-cover container" style="min-height: 100vh; display: flex; display: -ms-flexbox; -ms-flex-direction: column; flex-direction: column; -ms-flex: 1; flex: 1; overflow: auto;">
+    <!-- Main content -->
+    <div class="content-wrapper" style="-ms-flex-positive: 1; flex-grow: 1; display: flex !important;">
+        <div class="content d-flex justify-content-center align-items-center" style="display: flex; -ms-flex-positive: 1; flex-grow: 1; display: flex !important;">
+            <div class="flex-fill">
+                <!-- Error title -->
+                <div class="text-center mb-3">
+                    @Html.Raw(Model.html)
+                </div>
+                <!-- /error title -->
+                <!-- Error content -->
+                <div class="row">
+                    <div class="col-xl-4 offset-xl-4 col-md-8 offset-md-2">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <a href="index" class="btn btn-primary btn-block"><i class="icon-home4 mr-2"></i> Home</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 layout: default
 ---
@@ -162,7 +223,8 @@ layout: default
                                 </p>
                             </div>
                             <hr />
-                           
+                        </div>
+                        <div class="row">
                                 <div class="col-lg-6">
                                     <a class="fancybox-buttons" href="faqimages/settings/role/company1.png" title="Company page Role">
                                         <img class="img-responsive imgmargin" src="faqimages/settings/role/thumb/company1.png" alt="To give access to all companies - Turn on advance button">
@@ -174,8 +236,7 @@ layout: default
                                         Note :- You can control Create, Edit, Delete, Import from excel, custom fields related, relationship manager properties with turn on/ turn off button.
                                     </p>
                                 </div>
-                            
-                        </div>
+                            </div>
                     </div>
                 </div>
                 <div class="card mb-4">
@@ -1021,3 +1082,7 @@ layout: default
         </div>
     </div>
 </div>
+
+
+
+
