@@ -275,8 +275,14 @@ strong.txt-pay {
 .g-color-primary{
 	color: #efb225 !important;
 }
+.g-color-primary--hover:hover{
+	color: #efb225 !important;
+}
 
 .g-color-main{
+	color: #052c52 !important;
+}
+.g-color-main--hover:hover{
 	color: #052c52 !important;
 }
 
